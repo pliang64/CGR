@@ -62,6 +62,9 @@ These scripts are used to perform kmer-based Support Vector Machines (SVMs) samp
 - ** `SVM.py` **: python code for kmer-based Support Vector Machines (SVMs) clustering
 - ** `performance_analysis_Cs.txt` **: Modified code to perform analysis across varying values for C and write to txt file.
 
+### Data file
+-- ** `SRA_CRA_4312sampInfo.txt`: tab-delimited text file containing information for the 4312 SRA/CRA wgs datasets and their sample information.
+
 ## Usage
 
 Finetune_test.py includes an interactive script to facilitate testing in CLI.
