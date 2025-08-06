@@ -23,6 +23,8 @@ The remaining scripts are used in preprocessing sequence data into CGR images, g
 - process_folders_species.py
 - process_sequences_otherspecies_v2.py
 - process_sequences_species_file_v2.py
+- SVM.py
+- performance_analysis_Cs.txt
 ```
 
 This organized into three main functionalities:
@@ -54,6 +56,11 @@ The fine-tuning scripts train models on the generated datasets:
 
 - **`Finetune_test.py`**: General-purpose fine-tuning script. Can be run interactively or with specific parameters.
 - **`Finetune_vvcultivars.py`**: Fine-tunes models specifically for VV cultivar datasets.
+
+### SVM scripts
+These scripts are used to perform kmer-based Support Vector Machines (SVMs) sample clustering
+- ** `SVM.py` **: python code for kmer-based Support Vector Machines (SVMs) clustering
+- ** `performance_analysis_Cs.txt` **: Modified code to perform analysis across varying values for C and write to txt file.
 
 ## Usage
 
